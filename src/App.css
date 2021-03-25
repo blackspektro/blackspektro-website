@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+body {
+  background-color: #000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sorry-img {
+  margin-left: 5.625rem;
+  width: 37.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  width: 10rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.message {
+  position: absolute;
+  width: 55.875rem;
+  height: 9.375rem;
+  left: 885px;
+  top: 433px;
+
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.625rem;
+  line-height: 4.188rem;
+
+  color: #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+.background {
+  width: 50rem;
+  height: 43.75rem;
+  background: #000;
+  opacity: 0.1;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(-108.2deg);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.connect {
+  position: absolute;
+  width: 54.188rem;
+  height: 3.25rem;
+  left: 125px;
+  top: 870px;
+
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.188rem;
+  line-height: 2.5rem;
+
+  color: #ffffff;
+}
+
+.text {
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 3.563rem;
+  color: #cecece;
+}
+
+.email {
+  font-size: 2.625rem;
+}
+
+.credit {
+  color: #bfbfbf;
 }
